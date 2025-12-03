@@ -1,0 +1,26 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE/Editor directories
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Environment variables
+.env*
+
+# Node modules (if any tools added later)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Spec workflow files (keep in repo but document here)
+# specs/ directory is intentionally tracked
