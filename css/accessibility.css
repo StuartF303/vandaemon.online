@@ -1,0 +1,161 @@
+/* ===========================
+   Accessibility Enhancements
+   WCAG 2.1 AA Compliance
+   =========================== */
+
+/* Screen reader only utility class */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Skip link for keyboard navigation */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: var(--color-primary);
+    color: white;
+    padding: var(--space-sm) var(--space-md);
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid var(--color-primary-dark);
+    outline-offset: 2px;
+}
+
+/* Focus indicators for all interactive elements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Enhanced focus for buttons */
+.btn:focus {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Focus visible (modern browsers) */
+:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Remove outline for mouse users (but keep for keyboard) */
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Ensure sufficient color contrast */
+/* All text colors defined in main.css meet WCAG AA standards */
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --color-primary: #0000ff;
+        --color-text: #000000;
+        --color-bg: #ffffff;
+        --color-border: #000000;
+    }
+
+    .btn {
+        border: 2px solid currentColor;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Dark mode support (optional, respects user preference) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #f1f5f9;
+        --color-text-light: #94a3b8;
+        --color-bg: #0f172a;
+        --color-bg-alt: #1e293b;
+        --color-border: #334155;
+    }
+}
+
+/* Touch target size enforcement (44x44px minimum) */
+a,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+[role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Ensure links are distinguishable from regular text */
+a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+/* Button hover and active states for accessibility */
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Disabled state styling */
+.btn:disabled,
+.btn[aria-disabled="true"] {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Error and success message accessibility */
+[role="alert"] {
+    padding: var(--space-sm);
+    border-radius: 0.5rem;
+    margin-bottom: var(--space-sm);
+}
+
+.error {
+    background-color: #fef2f2;
+    border: 2px solid #ef4444;
+    color: #991b1b;
+}
+
+.success {
+    background-color: #f0fdf4;
+    border: 2px solid #22c55e;
+    color: #166534;
+}
+
+/* Ensure headings have proper hierarchy */
+/* Enforced semantically in HTML, styles support visual hierarchy */

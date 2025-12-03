@@ -1,0 +1,101 @@
+/* ===========================
+   Responsive Styles
+   Mobile-First Approach
+   =========================== */
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+    /* Typography adjustments */
+    h1 {
+        font-size: 2.5rem;
+        /* 40px on tablet */
+    }
+
+    h2 {
+        font-size: 2rem;
+        /* 32px */
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        /* 24px */
+    }
+
+    /* Container padding increase */
+    .container {
+        padding: 0 var(--space-lg);
+    }
+
+    /* Section spacing increase */
+    section {
+        padding: var(--space-2xl) 0;
+    }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+    /* Typography adjustments */
+    h1 {
+        font-size: 3rem;
+        /* 48px on desktop */
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        /* 36px */
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        /* 28px */
+    }
+
+    /* Container max-width applied */
+    .container {
+        max-width: 1200px;
+        padding: 0 var(--space-xl);
+    }
+}
+
+/* Wide screens: 1440px and up */
+@media (min-width: 1440px) {
+    /* Optional: further adjustments for very wide screens */
+    .container {
+        padding: 0 var(--space-2xl);
+    }
+}
+
+/* High DPI / Retina displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Image optimizations for retina displays handled via HTML srcset */
+}
+
+/* Print styles */
+@media print {
+    * {
+        background: white !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+}
