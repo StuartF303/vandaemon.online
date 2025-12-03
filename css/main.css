@@ -200,6 +200,127 @@ img {
     display: block;
 }
 
+/* Navigation Header */
+.nav-header {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-sm) 0;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: var(--space-md);
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+    padding: var(--space-xs);
+}
+
+.nav-links a:hover {
+    color: var(--color-primary);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: var(--space-2xl) 0;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    color: white;
+    margin-bottom: var(--space-md);
+    font-size: 2rem;
+}
+
+.hero .tagline {
+    font-size: 1.125rem;
+    margin-bottom: var(--space-lg);
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Features Section */
+.features {
+    background-color: var(--color-bg-alt);
+}
+
+.features h2 {
+    margin-bottom: var(--space-xl);
+}
+
+.feature-grid {
+    display: grid;
+    gap: var(--space-lg);
+    grid-template-columns: 1fr;
+}
+
+.feature-card {
+    background-color: var(--color-bg);
+    padding: var(--space-lg);
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-border);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+}
+
+.feature-card h3 {
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.feature-card p {
+    color: var(--color-text-light);
+    margin-bottom: 0;
+}
+
 /* Utility classes */
 .text-center {
     text-align: center;

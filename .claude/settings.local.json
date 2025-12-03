@@ -8,7 +8,10 @@
       "Bash(git rev-parse:*)",
       "Bash(git config:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(for i in {13..23})",
+      "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" tasks.md)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

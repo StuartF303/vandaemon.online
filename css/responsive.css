@@ -30,6 +30,11 @@
     section {
         padding: var(--space-2xl) 0;
     }
+
+    /* Features grid - 2 columns on tablet */
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Desktop: 1024px and up */
@@ -54,6 +59,16 @@
     .container {
         max-width: 1200px;
         padding: 0 var(--space-xl);
+    }
+
+    /* Features grid - 3 columns on desktop */
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Navigation horizontal layout */
+    .nav-links {
+        gap: var(--space-lg);
     }
 }
 
