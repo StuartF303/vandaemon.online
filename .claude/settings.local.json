@@ -11,7 +11,9 @@
       "Bash(git commit:*)",
       "Bash(for i in {13..23})",
       "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" tasks.md)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(for i in {24..43})",
+      "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" specs/001-marketing-website/tasks.md)"
     ],
     "deny": [],
     "ask": []

@@ -321,6 +321,168 @@ img {
     margin-bottom: 0;
 }
 
+/* Demo Section */
+.demo {
+    background-color: var(--color-bg);
+}
+
+.demo-content {
+    display: grid;
+    gap: var(--space-xl);
+    grid-template-columns: 1fr;
+}
+
+.demo-text ul {
+    margin-bottom: var(--space-md);
+}
+
+.demo-cta {
+    margin-top: var(--space-md);
+}
+
+.demo-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-placeholder {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: var(--space-2xl);
+    border-radius: 1rem;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.demo-placeholder p:first-child {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+}
+
+.demo-url {
+    font-family: var(--font-mono);
+    font-size: 1.125rem;
+    opacity: 0.9;
+}
+
+/* GitHub Section */
+.github {
+    background-color: var(--color-bg-alt);
+}
+
+.github-content {
+    text-align: center;
+}
+
+.github-features {
+    display: grid;
+    gap: var(--space-lg);
+    grid-template-columns: 1fr;
+    margin: var(--space-xl) 0;
+}
+
+.github-feature {
+    text-align: center;
+    padding: var(--space-md);
+}
+
+.github-feature strong {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: var(--space-xs);
+    color: var(--color-primary);
+}
+
+.github-cta {
+    margin-top: var(--space-lg);
+}
+
+/* Getting Started Section */
+.getting-started {
+    background-color: var(--color-bg);
+}
+
+.install-steps {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.install-steps h3 {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-sm);
+    color: var(--color-primary);
+}
+
+.install-steps h3:first-child {
+    margin-top: 0;
+}
+
+.install-steps pre {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    padding: var(--space-md);
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: var(--space-sm) 0 var(--space-md);
+}
+
+.install-steps code {
+    background-color: transparent;
+    color: inherit;
+    font-size: 0.875rem;
+}
+
+.docs-link {
+    margin-top: var(--space-xl);
+    text-align: center;
+}
+
+.docs-link a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-text);
+    color: white;
+    padding: var(--space-xl) 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    margin-bottom: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875rem;
+}
+
 /* Utility classes */
 .text-center {
     text-align: center;

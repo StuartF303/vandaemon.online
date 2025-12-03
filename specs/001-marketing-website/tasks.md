@@ -88,13 +88,13 @@
 
 ### Implementation for User Story 2
 
-- [ ] T024 [P] [US2] Create demo section in index.html: <section id="demo" class="demo">, <h2>, <div class="demo-content">, <div class="demo-cta">
-- [ ] T025 [P] [US2] Add demo section content: description of what demo shows, explanation of capabilities, context/prerequisites
-- [ ] T026 [P] [US2] Add "Try Live Demo" CTA button in demo section: <a href="https://vandaemon.fly.dev/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Try Live Demo</a>
-- [ ] T027 [P] [US2] Add demo screenshot placeholder in demo section: <img src="assets/images/demo-screenshot.jpg" alt="Vandaemon demo interface" loading="lazy">
-- [ ] T028 [P] [US2] Style demo section in css/main.css: two-column layout (image + text), button styling, mobile-stacked
-- [ ] T029 [US2] Add responsive demo layout in css/responsive.css: side-by-side for desktop, stacked for mobile
-- [ ] T030 [P] [US2] Add button styles and hover states in css/main.css: .btn, .btn-primary with colors, padding, transitions
+- [X] T024 [P] [US2] Create demo section in index.html: <section id="demo" class="demo">, <h2>, <div class="demo-content">, <div class="demo-cta">
+- [X] T025 [P] [US2] Add demo section content: description of what demo shows, explanation of capabilities, context/prerequisites
+- [X] T026 [P] [US2] Add "Try Live Demo" CTA button in demo section: <a href="https://vandaemon.fly.dev/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Try Live Demo</a>
+- [X] T027 [P] [US2] Add demo screenshot placeholder in demo section: <img src="assets/images/demo-screenshot.jpg" alt="Vandaemon demo interface" loading="lazy">
+- [X] T028 [P] [US2] Style demo section in css/main.css: two-column layout (image + text), button styling, mobile-stacked
+- [X] T029 [US2] Add responsive demo layout in css/responsive.css: side-by-side for desktop, stacked for mobile
+- [X] T030 [P] [US2] Add button styles and hover states in css/main.css: .btn, .btn-primary with colors, padding, transitions
 
 **Checkpoint**: User Story 2 complete - visitor can access demo site with clear CTA
 
@@ -108,12 +108,12 @@
 
 ### Implementation for User Story 3
 
-- [ ] T031 [P] [US3] Create GitHub section in index.html: <section id="github" class="github">, <h2>, <div class="github-content">
-- [ ] T032 [P] [US3] Add GitHub section content: repository description, contribution guidelines summary, community information
-- [ ] T033 [P] [US3] Add "View on GitHub" CTA button: <a href="https://github.com/stuartf303/vandaemon" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View on GitHub</a>
-- [ ] T034 [P] [US3] Add GitHub icon/logo to GitHub section using SVG or icon font in assets/icons/
-- [ ] T035 [P] [US3] Style GitHub section in css/main.css: layout, button secondary variant (.btn-secondary), icon positioning
-- [ ] T036 [P] [US3] Add documentation links in GitHub section: README, API docs, contribution guide (if applicable)
+- [X] T031 [P] [US3] Create GitHub section in index.html: <section id="github" class="github">, <h2>, <div class="github-content">
+- [X] T032 [P] [US3] Add GitHub section content: repository description, contribution guidelines summary, community information
+- [X] T033 [P] [US3] Add "View on GitHub" CTA button: <a href="https://github.com/stuartf303/vandaemon" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View on GitHub</a>
+- [X] T034 [P] [US3] Add GitHub icon/logo to GitHub section using SVG or icon font in assets/icons/
+- [X] T035 [P] [US3] Style GitHub section in css/main.css: layout, button secondary variant (.btn-secondary), icon positioning
+- [X] T036 [P] [US3] Add documentation links in GitHub section: README, API docs, contribution guide (if applicable)
 
 **Checkpoint**: User Story 3 complete - developer can access GitHub repository and understand how to contribute
 
@@ -127,13 +127,13 @@
 
 ### Implementation for User Story 4
 
-- [ ] T037 [P] [US4] Create getting started section in index.html: <section id="getting-started" class="getting-started">, <h2>, <div class="install-steps">
-- [ ] T038 [P] [US4] Add installation instructions: step-by-step installation commands in <pre><code> blocks or ordered list
-- [ ] T039 [P] [US4] Add system requirements and prerequisites: supported platforms, dependencies, version requirements
-- [ ] T040 [P] [US4] Add "first use" code example: basic usage snippet showing how to start with vandaemon
-- [ ] T041 [P] [US4] Add link to comprehensive documentation: "Read full documentation" with external link or anchor to docs
-- [ ] T042 [P] [US4] Style getting started section in css/main.css: code block styling (<pre>, <code>), list styling, layout
-- [ ] T043 [US4] Add responsive getting started layout in css/responsive.css: multi-column for desktop if beneficial
+- [X] T037 [P] [US4] Create getting started section in index.html: <section id="getting-started" class="getting-started">, <h2>, <div class="install-steps">
+- [X] T038 [P] [US4] Add installation instructions: step-by-step installation commands in <pre><code> blocks or ordered list
+- [X] T039 [P] [US4] Add system requirements and prerequisites: supported platforms, dependencies, version requirements
+- [X] T040 [P] [US4] Add "first use" code example: basic usage snippet showing how to start with vandaemon
+- [X] T041 [P] [US4] Add link to comprehensive documentation: "Read full documentation" with external link or anchor to docs
+- [X] T042 [P] [US4] Style getting started section in css/main.css: code block styling (<pre>, <code>), list styling, layout
+- [X] T043 [US4] Add responsive getting started layout in css/responsive.css: multi-column for desktop if beneficial
 
 **Checkpoint**: User Story 4 complete - developer has clear path to getting started with vandaemon
 

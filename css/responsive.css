@@ -35,6 +35,17 @@
     .feature-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Demo section - 2 columns on tablet */
+    .demo-content {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    /* GitHub features - 3 columns on tablet */
+    .github-features {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Desktop: 1024px and up */
