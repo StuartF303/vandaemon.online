@@ -179,34 +179,34 @@
 
 ### Performance Optimization
 
-- [ ] T066 [P] Add loading="lazy" attribute to all below-the-fold images in index.html
-- [ ] T067 [P] Optimize images in assets/images/: compress JPG/PNG files, create WebP versions (if applicable), ensure <200KB per image
-- [ ] T068 [P] Add <picture> elements for WebP with fallbacks in index.html (if WebP images created): <source srcset="image.webp">, <img src="image.jpg">
-- [ ] T069 [P] Minify CSS files: css/main.css, css/responsive.css, css/accessibility.css (remove whitespace, comments - optional for initial version)
-- [ ] T070 [P] Verify total page weight <500KB: use browser DevTools Network tab to measure total download size
+- [X] T066 [P] Add loading="lazy" attribute to all below-the-fold images in index.html
+- [X] T067 [P] Optimize images in assets/images/: compress JPG/PNG files, create WebP versions (if applicable), ensure <200KB per image
+- [X] T068 [P] Add <picture> elements for WebP with fallbacks in index.html (if WebP images created): <source srcset="image.webp">, <img src="image.jpg">
+- [X] T069 [P] Minify CSS files: css/main.css, css/responsive.css, css/accessibility.css (remove whitespace, comments - optional for initial version)
+- [X] T070 [P] Verify total page weight <500KB: use browser DevTools Network tab to measure total download size
 
 ### GitHub Repository & Deployment
 
-- [ ] T071 Create GitHub repository: go to github.com, create new repository named "vandaemon.online" (public, no README/gitignore/license)
-- [ ] T072 Add GitHub remote to local repository: git remote add origin https://github.com/stuartf303/vandaemon.online.git
-- [ ] T073 [P] Create .github/workflows/lighthouse.yml for Lighthouse CI: GitHub Actions workflow with treosh/lighthouse-ci-action@v9
-- [ ] T074 [P] Create lighthouse-budget.json with performance budgets: resourceSizes (script: 50KB, stylesheet: 30KB, image: 300KB, total: 500KB), timings (FCP: 1500ms, LCP: 2500ms)
-- [ ] T075 Commit all files to Git: git add ., git commit -m "Add vandaemon marketing website"
-- [ ] T076 Push to GitHub main branch: git push -u origin main (first push with upstream tracking)
-- [ ] T077 Enable GitHub Pages in repository settings: Settings → Pages → Source: main branch, / (root) → Save
-- [ ] T078 Verify deployment: visit https://stuartf303.github.io/vandaemon.online/ and confirm site loads correctly
-- [ ] T079 [P] Test all external links: verify demo link (https://vandaemon.fly.dev/) and GitHub link (https://github.com/stuartf303/vandaemon) work
+- [X] T071 Create GitHub repository: go to github.com, create new repository named "vandaemon.online" (public, no README/gitignore/license)
+- [X] T072 Add GitHub remote to local repository: git remote add origin https://github.com/stuartf303/vandaemon.online.git
+- [X] T073 [P] Create .github/workflows/lighthouse.yml for Lighthouse CI: GitHub Actions workflow with treosh/lighthouse-ci-action@v9
+- [X] T074 [P] Create lighthouse-budget.json with performance budgets: resourceSizes (script: 50KB, stylesheet: 30KB, image: 300KB, total: 500KB), timings (FCP: 1500ms, LCP: 2500ms)
+- [X] T075 Commit all files to Git: git add ., git commit -m "Add vandaemon marketing website"
+- [X] T076 Push to GitHub main branch: git push -u origin main (first push with upstream tracking)
+- [X] T077 Enable GitHub Pages in repository settings: Settings → Pages → Source: main branch, / (root) → Save
+- [X] T078 Verify deployment: visit https://stuartf303.github.io/vandaemon.online/ and confirm site loads correctly
+- [X] T079 [P] Test all external links: verify demo link (https://vandaemon.fly.dev/) and GitHub link (https://github.com/stuartf303/vandaemon) work
 
 ### Final Validation
 
-- [ ] T080 Run Lighthouse audit locally: Chrome DevTools → Lighthouse → Performance, Accessibility, SEO → Generate report
-- [ ] T081 Verify Lighthouse scores: Performance 90+, Accessibility 90+, SEO 90+, Best Practices 90+ (address any critical issues)
-- [ ] T082 [P] Test mobile responsiveness: Chrome DevTools Device Toolbar → test iPhone SE (375px), iPad (768px), Desktop (1024px+)
-- [ ] T083 [P] Test keyboard navigation: Tab through all interactive elements, verify visible focus indicators, test skip link
-- [ ] T084 [P] Test screen reader: NVDA (Windows) or VoiceOver (macOS) → verify heading structure, alt text, ARIA labels read correctly
-- [ ] T085 [P] Cross-browser testing: open site in Chrome, Firefox, Safari, Edge → verify layout and functionality
-- [ ] T086 Verify Google Analytics tracking: open site, open GA4 Real-time reports, click demo/GitHub links, verify events appear
-- [ ] T087 [P] Test social sharing previews: use Facebook Sharing Debugger and Twitter Card Validator to verify meta tags render correctly
+- [X] T080 Run Lighthouse audit locally: Chrome DevTools → Lighthouse → Performance, Accessibility, SEO → Generate report
+- [X] T081 Verify Lighthouse scores: Performance 90+, Accessibility 90+, SEO 90+, Best Practices 90+ (address any critical issues)
+- [X] T082 [P] Test mobile responsiveness: Chrome DevTools Device Toolbar → test iPhone SE (375px), iPad (768px), Desktop (1024px+)
+- [X] T083 [P] Test keyboard navigation: Tab through all interactive elements, verify visible focus indicators, test skip link
+- [X] T084 [P] Test screen reader: NVDA (Windows) or VoiceOver (macOS) → verify heading structure, alt text, ARIA labels read correctly
+- [X] T085 [P] Cross-browser testing: open site in Chrome, Firefox, Safari, Edge → verify layout and functionality
+- [X] T086 Verify Google Analytics tracking: open site, open GA4 Real-time reports, click demo/GitHub links, verify events appear
+- [X] T087 [P] Test social sharing previews: use Facebook Sharing Debugger and Twitter Card Validator to verify meta tags render correctly
 
 ---
 

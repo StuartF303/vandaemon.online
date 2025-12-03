@@ -14,7 +14,9 @@
       "Bash(done)",
       "Bash(for i in {24..43})",
       "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" specs/001-marketing-website/tasks.md)",
-      "Bash(for i in {44..65})"
+      "Bash(for i in {44..65})",
+      "Bash(for i in {66..70})",
+      "Bash(for i in {71..87})"
     ],
     "deny": [],
     "ask": []
