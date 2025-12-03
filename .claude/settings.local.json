@@ -13,7 +13,8 @@
       "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" tasks.md)",
       "Bash(done)",
       "Bash(for i in {24..43})",
-      "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" specs/001-marketing-website/tasks.md)"
+      "Bash(do sed -i \"s/^- \\[ \\] T0$i/- [X] T0$i/\" specs/001-marketing-website/tasks.md)",
+      "Bash(for i in {44..65})"
     ],
     "deny": [],
     "ask": []

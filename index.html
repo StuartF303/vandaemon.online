@@ -5,10 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vandaemon - Efficient Daemon Management</title>
 
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Vandaemon provides powerful, lightweight daemon process management with intuitive controls and real-time monitoring. Open source, easy to configure, and secure by default.">
+    <meta name="keywords" content="daemon management, process management, linux daemon, service management, process monitoring, vandaemon">
+    <meta name="author" content="Vandaemon">
+    <link rel="canonical" href="https://vandaemon.online/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vandaemon.online/">
+    <meta property="og:title" content="Vandaemon - Efficient Daemon Management">
+    <meta property="og:description" content="Powerful, lightweight daemon process management with intuitive controls and real-time monitoring. Open source and secure by default.">
+    <meta property="og:image" content="https://vandaemon.online/assets/images/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://vandaemon.online/">
+    <meta name="twitter:title" content="Vandaemon - Efficient Daemon Management">
+    <meta name="twitter:description" content="Powerful, lightweight daemon process management with intuitive controls and real-time monitoring. Open source and secure by default.">
+    <meta name="twitter:image" content="https://vandaemon.online/assets/images/twitter-card.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/accessibility.css">
+
+    <!-- Google Analytics 4 -->
+    <!-- Replace G-XXXXXXXXXX with your actual GA4 Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script src="js/analytics.js"></script>
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -33,7 +63,7 @@
 
     <main id="main">
         <!-- Hero Section -->
-        <section id="hero" class="hero">
+        <section id="hero" class="hero" aria-label="Hero introduction">
             <div class="container">
                 <div class="hero-content">
                     <h1>Efficient Daemon Management Made Simple</h1>
@@ -47,9 +77,9 @@
         </section>
 
         <!-- Features Section -->
-        <section id="features" class="features">
+        <section id="features" class="features" aria-labelledby="features-heading">
             <div class="container">
-                <h2 class="text-center">Key Features</h2>
+                <h2 id="features-heading" class="text-center">Key Features</h2>
                 <div class="feature-grid">
                     <article class="feature-card">
                         <div class="feature-icon">⚡</div>
@@ -81,11 +111,11 @@
         </section>
 
         <!-- Demo Section -->
-        <section id="demo" class="demo">
+        <section id="demo" class="demo" aria-labelledby="demo-heading">
             <div class="container">
                 <div class="demo-content">
                     <div class="demo-text">
-                        <h2>See Vandaemon in Action</h2>
+                        <h2 id="demo-heading">See Vandaemon in Action</h2>
                         <p>Experience the power and simplicity of vandaemon with our live demo. Try out key features including process management, real-time monitoring, and configuration management.</p>
                         <p>The demo showcases:</p>
                         <ul>
@@ -109,10 +139,10 @@
         </section>
 
         <!-- GitHub Section -->
-        <section id="github" class="github">
+        <section id="github" class="github" aria-labelledby="github-heading">
             <div class="container">
                 <div class="github-content">
-                    <h2>Open Source & Community Driven</h2>
+                    <h2 id="github-heading">Open Source & Community Driven</h2>
                     <p>Vandaemon is open source software, built with community contributions and feedback. Join us on GitHub to explore the code, report issues, or contribute to the project.</p>
                     <div class="github-features">
                         <div class="github-feature">
@@ -136,9 +166,9 @@
         </section>
 
         <!-- Getting Started Section -->
-        <section id="getting-started" class="getting-started">
+        <section id="getting-started" class="getting-started" aria-labelledby="getting-started-heading">
             <div class="container">
-                <h2 class="text-center">Getting Started</h2>
+                <h2 id="getting-started-heading" class="text-center">Getting Started</h2>
                 <div class="install-steps">
                     <h3>Installation</h3>
                     <p>Get up and running with vandaemon in just a few steps:</p>
@@ -174,8 +204,20 @@ log_level: info</code></pre>
         </section>
     </main>
 
-    <footer>
-        <!-- Footer will be added in Phase 7 -->
+    <footer aria-label="Site footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://github.com/stuartf303/vandaemon" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://github.com/stuartf303/vandaemon/issues" target="_blank" rel="noopener noreferrer">Issues</a>
+                    <a href="https://github.com/stuartf303/vandaemon#readme" target="_blank" rel="noopener noreferrer">Documentation</a>
+                    <a href="https://vandaemon.fly.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Vandaemon. Open source software licensed under MIT.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
